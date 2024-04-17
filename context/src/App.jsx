@@ -1,11 +1,13 @@
 import CountPanel from "./components/CountPanel";
-import CountProvider from "./provider/CountProvider";
+// import CountProvider from "./provider/CountProvider";
+import { CustHookCountProvider } from "./context/CustHookCountContext";
+
 function App() {
     return (
         <div>
-            <CountProvider>
+            <CustHookCountProvider>
                 <CountPanel />
-            </CountProvider>
+            </CustHookCountProvider>
         </div>
     );
 }
