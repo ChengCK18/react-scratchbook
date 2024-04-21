@@ -1,0 +1,19 @@
+{
+    "notes": [
+        {
+            "id": 1,
+            "content": "hELLOOOO",
+            "important": true
+        },
+        {
+            "id": 2,
+            "content": "Browseasdasdadadadcript",
+            "important": false
+        },
+        {
+            "id": 3,
+            "content": "GEasdasdsadasdasdHTTP protocol",
+            "important": true
+        }
+    ]
+}
